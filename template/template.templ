@@ -1,0 +1,11 @@
+package template
+
+import (
+    "Signaturen-Generator/db"
+)
+
+templ Html(employee db.Employee) {
+<div>
+    <h1>{employee.Name}</h1>
+</div>
+}
